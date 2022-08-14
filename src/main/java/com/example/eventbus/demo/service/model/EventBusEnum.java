@@ -5,9 +5,10 @@ package com.example.eventbus.demo.service.model;
  */
 public enum EventBusEnum {
 
-    SCAN_IP("scanIP","扫描ip","扫描ip事件"),
+    SCAN_IP("scanIp","扫描ip","扫描ip事件"),
     SAVE_IP_SQL_MSG("saveIpSqlMsg","存储慢sql信息","存储慢sql信息"),
-
+    SAVE_IP_CONFIG("saveIpConfig","存储ip配置","存储ip配置"),
+    MODIFY_IP_CONFIG("modifyIpConfig","更新ip配置","更新ip配置")
     ;
 
     /**

@@ -46,7 +46,7 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
         <!-- 指定数据库表  多个表,可用多个table标签-->
-        <table tableName="ip_config" domainObjectName="IpConfig"
+        <table tableName="event_log" domainObjectName="EventLog"
                enableCountByExample="false"
                enableUpdateByExample="true"
                enableDeleteByExample="false"
